@@ -1,10 +1,9 @@
 import axios from "axios";
-
-const API_KEY = "062b8fab08b649c2b32163433252606"; // Replace with your actual key
+import Config from 'react-native-config';
 
 // Endpoint to get weather forecast
 const forecastEndPoint = (location, days = 1) =>
-  `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&days=${days}&aqi=no&alerts=no`;
+  `https://api.weatherapi.com/v1/forecast.json?key=${Config.WEATHER_API_KEY}&q=${location}&days=${days}&aqi=no&alerts=no`;
 
 // Endpoint to search location
 const locationEndPoint = (query) =>
