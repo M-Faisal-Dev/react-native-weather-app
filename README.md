@@ -1,14 +1,30 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Here's your updated `README.md` tailored specifically for your **React Native Weather App**, including the added app preview image section:
 
-# Getting Started
+---
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+# 🌤️ React Native Weather App
 
-## Step 1: Start Metro
+This is a beautiful and modern **React Native Weather App**, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli). It uses real-time weather data, integrates location services, and displays a 7-day forecast with elegant visuals.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+---
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 📸 App Preview
+
+<p align="center"> <img src="./assets/screenshots/weather-1.png" alt="Weather App Screenshot 1" width="200" style="margin-right: 10px;" /> <img src="./assets/screenshots/weather-2.png" alt="Weather App Screenshot 2" width="200" /> </p>
+
+> Make sure you have added your screenshot to: `./assets/screenshots/weather-preview.png`
+
+---
+
+## 🚀 Getting Started
+
+> **Note**: Before starting, complete the [Set Up Your Environment](https://reactnative.dev/docs/environment-setup) guide for React Native.
+
+---
+
+### ✅ Step 1: Start Metro
+
+Metro is the JavaScript bundler for React Native.
 
 ```sh
 # Using npm
@@ -18,80 +34,76 @@ npm start
 yarn start
 ```
 
-## Step 2: Build and run your app
+---
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 📱 Step 2: Run the App
 
-### Android
+Open a **new terminal window** and run the following commands based on your target platform:
+
+#### ▶️ Android
 
 ```sh
-# Using npm
 npm run android
-
-# OR using Yarn
+# or
 yarn android
 ```
 
-### iOS
+#### 🍏 iOS (macOS only)
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Install CocoaPods dependencies (first time or after updating native modules):
 
 ```sh
 bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
 bundle exec pod install
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+Then run the app:
 
 ```sh
-# Using npm
 npm run ios
-
-# OR using Yarn
+# or
 yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+---
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+### 🛠️ Step 3: Modify the App
 
-## Step 3: Modify your app
+Make changes in `App.tsx` or `HomeScreen.jsx`. Thanks to **Fast Refresh**, your app updates instantly!
 
-Now that you have successfully run the app, let's make changes!
+To **force a reload**:
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+* Android: Press <kbd>R</kbd> twice or <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>M</kbd>
+* iOS: Press <kbd>R</kbd> in the iOS Simulator
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+---
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+## ✨ Features
 
-## Congratulations! :tada:
+* 📍 Get weather based on **current location**
+* 🔍 Search any city worldwide
+* 🌡️ Real-time temperature and *feels-like*
+* 🌥️ 7-day forecast
+* 💧 Humidity, wind speed, sunrise time, and more
+* ⚡ Elegant and responsive UI with icons
 
-You've successfully run and modified your React Native App. :partying_face:
+---
 
-### Now what?
+## 🧪 Troubleshooting
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+If you face issues:
 
-# Troubleshooting
+* Check the [React Native Troubleshooting guide](https://reactnative.dev/docs/troubleshooting)
+* Ensure your environment is properly set up per the [setup guide](https://reactnative.dev/docs/environment-setup)
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
+## 📚 Learn More
 
-To learn more about React Native, take a look at the following resources:
+* [React Native Docs](https://reactnative.dev/docs/getting-started)
+* [Weather API](https://www.weatherapi.com/)
+* [React Native CLI](https://github.com/react-native-community/cli)
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
+
+
